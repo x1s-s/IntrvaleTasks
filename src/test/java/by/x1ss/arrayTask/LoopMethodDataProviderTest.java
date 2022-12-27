@@ -8,7 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(DataProviderRunner.class)
-public class LoopMethodDataProvider {
+public class LoopMethodDataProviderTest {
     @DataProvider
     public static Object[][] data() {
         return new Object[][]{
