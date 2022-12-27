@@ -15,7 +15,7 @@ public class StreamsMethod {
 
     public int[] countPositiveSumNegative(){
         if(array == null || array.length == 0){
-            return new int[]{0, 0};
+            return new int[0];
         }
         return new int[]{
                 (int) Arrays.stream(array).filter(x -> x > 0).count(),

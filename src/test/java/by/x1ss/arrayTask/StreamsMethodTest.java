@@ -12,8 +12,8 @@ public class StreamsMethodTest {
     @DataProvider
     public static Object[][] data() {
         return new Object[][]{
-                {null, new int[]{0, 0}},
-                {new int[0], new int[]{0, 0}},
+                {null, new int[0]},
+                {new int[0], new int[0]},
                 {new int[]{1, 2, 3, 4, 5}, new int[]{5, 0}},
                 {new int[]{-1, -2, -3, -4, -5}, new int[]{0, -15}},
                 {new int[]{1, 2, 3, 4, -5}, new int[]{4, -5}},
